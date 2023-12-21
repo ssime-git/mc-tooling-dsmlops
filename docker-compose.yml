@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jupyter:
+    image: continuumio/miniconda3
+    ports:
+      - "8888:8888"  # Expose Jupyter on localhost:8888
+    volumes:
+      - ./notebooks:/opt/notebooks  # Mount a local directory for persistence
+    command: >
+      /bin/bash -c "conda install -c conda-forge notebook jupyterlab -y &&
+                    jupyter lab --notebook-dir=/opt/notebooks --ip='0.0.0.0' --port=8888 --no-browser --allow-root"

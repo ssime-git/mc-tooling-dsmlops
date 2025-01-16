@@ -3,3 +3,7 @@ notebooks/.ipynb_checkpoints/
 vm_keys/data_engineering_machine.pem
 conda_env/
 config/
+notebooks/.ipynb_checkpoints
+notebooks/.Trash-0
+notebooks/sample_project
+*/__init__.py

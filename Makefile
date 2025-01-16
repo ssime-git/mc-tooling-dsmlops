@@ -27,8 +27,8 @@ install-python-pip-curl-git-wget:
 
 # Define variables
 PEM_FILE = vm_keys/data_engineering_machine.pem
-IP_ADDRESS = 34.240.6.168
-FILE_PATH_ON_VM = /home/ubuntu/masterclass/tooling_ds/mon-fichier.md
+IP_ADDRESS = 18.201.180.49
+FILE_PATH_ON_VM = home/ubuntu/masterclass/tooling_ds/my_local_file-from-vm.md
 REMOTE_FILE_PATH = /home/ubuntu/masterclass/tooling_ds/
 LOCAL_FILE_PATH = ./my_local_file.md
 

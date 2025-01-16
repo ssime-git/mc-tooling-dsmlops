@@ -17,4 +17,7 @@ conda install -c anaconda ipykernel
 
 # création de kernel (from within an environnement) Think about activate the environnement
 python -m ipykernel install --user --name env_name
+
+# delete the kernel
+jupyter kernelspec uninstall env_name
 ```
